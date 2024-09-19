@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soulful Strokes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('background-image.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+        .header {
+            text-align: center;
+            padding: 50px;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        .header img {
+            max-width: 300px;
+            height: auto;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        .pricing-table {
+            display: inline-block;
+            text-align: left;
+            margin-top: 20px;
+        }
+        .pricing-table table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+        .pricing-table th, .pricing-table td {
+            border: 1px solid white;
+            padding: 10px;
+        }
+        .color-selector {
+            margin-top: 20px;
+        }
+        .social-links {
+            margin-top: 30px;
+            text-align: center;
+        }
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header section with logo -->
+    <div class="header">
+        <img src="Soulful_Strokes_Logo.png" alt="Soulful Strokes Logo">
+        <h1>Welcome to Soulful Strokes</h1>
+        <p>Creating art that reflects your individuality and inspires your soul!</p>
+    </div>
+
+    <!-- Content section with pricing and color selector -->
+    <div class="content">
+        <h2>Customize Your Artwork</h2>
+        <p>Choose your canvas size and pick your own colors to match your space perfectly.</p>
+
+        <!-- Pricing table -->
+        <div class="pricing-table">
+            <h3>Pricing</h3>
+            <table>
+                <tr>
+                    <th>Size</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Small</td>
+                    <td>$10</td>
+                </tr>
+                <tr>
+                    <td>Medium</td>
+                    <td>$20</td>
+                </tr>
+                <tr>
+                    <td>Large</td>
+                    <td>$50</td>
+                </tr>
+                <tr>
+                    <td>Extra-Large</td>
+                    <td>$60</td>
+                </tr>
+                <tr>
+                    <td>XXL</td>
+                    <td>$70</td>
+                </tr>
+                <tr>
+                    <td>XXXL</td>
+                    <td>$100</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Color selector (simulated for now) -->
+        <div class="color-selector">
+            <h3>Choose Your Colors</h3>
+            <p>Select the colors you'd like for your canvas. More customization options are available!</p>
+            <input type="color" id="canvasColor" name="canvasColor">
+        </div>
+
+        <!-- Social media links -->
+        <div class="social-links">
+            <h3>Connect with Us</h3>
+            <a href="https://www.instagram.com/deriiiya.hhhh1/" target="_blank">Instagram</a> | 
+            <a href="https://www.facebook.com/riyah.jones.144" target="_blank">Facebook</a>
+        </div>
+    </div>
+
+</body>
+</html>
